@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Is Petrik Still Stuck in the 🇬🇧?</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <!-- Bulma Version 0.9.0-->
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+    <section class="hero is-info is-fullheight">
+        <div class="hero-head">
+            <nav class="navbar">
+                <div class="container">
+                    <div class="navbar-brand">
+                        <a class="navbar-item" href="../">
+
+                        </a>
+                        <span class="navbar-burger burger" data-target="navbarMenu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </div>
+                    <div id="navbarMenu" class="navbar-menu">
+                        
+                    </div>
+                </div>
+            </nav>
+            </div>
+
+            <div class="hero-body">
+                <div class="container has-text-centered">
+                    <div class="column is-10 is-offset-1">
+                        <h2 class="title">
+                            Is Petrik Still Stuck in 🇬🇧?
+                        </h2>
+                        <h1 class="title is-1">
+                            ✅ Yes
+                        </h1>
+                        <p class="pt-5">Petrik is stuck for <strong><span id="counter"></span></strong>.</p>
+
+                    </div>
+                </div>
+            </div>
+ 
+    </section>
+    <div class="footer" style="padding: 2rem">
+        <p>
+            <strong class="white">ispetrikstillstuckinuk</strong> by mrtnjcl.
+            Sosijrol photo by <a href="https://www.flickr.com/people/10559879@N00">Alpha</a> from Melbourne, Australia, <a href="https://commons.wikimedia.org/wiki/File:Sausage_roll.jpg">Sausage roll</a>, <a href="https://creativecommons.org/licenses/by-sa/2.0/legalcode" rel="license">CC BY-SA 2.0</a>
+        </p>
+    </div>
+    <script type="text/javascript" src="js/countdown.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/cash/8.1.0/cash.min.js"></script>
+    <script>
+        function countDifference() {
+
+            const cnt = countdown( new Date(2018, 11, 1) ).toString();
+
+            $('#counter').html(cnt);
+        }
+        $(function () {
+            countDifference();
+            setInterval( function() {
+                countDifference();
+            }, 1000);
+        });
+      </script>
+</body>
+
+</html>
